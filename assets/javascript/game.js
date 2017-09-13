@@ -36,7 +36,7 @@
 	    }
 
 	    function restartGame(message) {
-    		var restart = $("<button>Restart</button>").click(function() {
+    		var restart = $("<button class='btn-lg active'>Restart</button>").click(function() {
       		location.reload();
     	});
     		var gameState = $("<div>").text(message);
@@ -45,7 +45,7 @@
     	}
 
     	function submitButton() {
-    		var submit = $("<button>Submit</button>").click(function()	{
+    		var submit = $("<button class='btn-lg active'>Submit</button>").click(function()	{
     			stop();
     		});
     		$("#questionList").append(submit);

@@ -1,10 +1,14 @@
 .container {
 	text-align: center;
+	border: 1px solid #efefef;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 #mainSection {
-	padding-top: 100px;
-	background-color: peachpuff;
+	background-color: lightblue;
 }
 
 #SplashScreen {
