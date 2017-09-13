@@ -1,0 +1,21 @@
+.container {
+	text-align: center;
+}
+
+#mainSection {
+	padding-top: 100px;
+	background-color: peachpuff;
+}
+
+#SplashScreen {
+	height: 600px;
+}
+
+#results {
+	height: 600px;
+
+}
+
+body {
+	background-image: url(../../assets/images/background.jpg);
+}

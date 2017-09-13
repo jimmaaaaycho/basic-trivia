@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Trivia</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+
+<body>
+<div class="row"></div>
+
+<div class="container">
+	<div id="mainSection">
+		<div id="SplashScreen">
+			<h1>Trivia Game</h1>
+			<h1>Click Start to begin the game</h1>
+				<input id="StartButton" type="button" value="Start"/>
+		</div>
+
+
+			<h2 id="display">Time Remaining: </h2>
+				<div id="questionList">
+					<h1>What is the highest grossing movie as of 2017?</h1><br>
+						<form >
+						<input type="radio" name="question1" value="correct"> Gone with the Wind
+						<input type="radio" name="question1" value="wrong"> Avatar
+						<input type="radio" name="question1" value="wrong"> Titanic
+						<input type="radio" name="question1" value="wrong"> Star Wars
+						</form>
+
+					<h1>What is the highest grossing music album as of 2017?</h1><br>
+						<form >
+						<input type="radio" name="question2" value="wrong"> AC/DC - Back in Black
+						<input type="radio" name="question2" value="wrong"> Pink Floyd - Dark side of the moon
+						<input type="radio" name="question2" value="wrong"> Whitney Houston - Body Guard
+						<input type="radio" name="question2" value="correct"> Michael Jackson - Thriller
+						</form>
+						 
+					<h1>Who is the highest paid actor as of 2017?</h1><br>
+						<form >
+						<input type="radio" name="question3" value="wrong"> The Rock
+						<input type="radio" name="question3" value="wrong"> Brad Pitt 
+						<input type="radio" name="question3" value="correct"> Mark Wahlberg
+						<input type="radio" name="question3" value="wrong"> Tom Cruise
+						</form>
+					
+					<h1>Who is the highest paid athlete of all time?</h1><br>
+						<form >
+						<input type="radio" name="question4" value="wrong"> Kobe Bryant
+						<input type="radio" name="question4" value="correct"> Michael Jordan
+						<input type="radio" name="question4" value="wrong"> David Beckham
+						<input type="radio" name="question4" value="wrong"> Floyd Mayweather
+						</form>
+
+					<h1>Who is(are) the highest paid musician(s) of all time?</h1><br>
+						<form >
+						<input type="radio" name="question5" value="wrong"> Michael Jackson
+						<input type="radio" name="question5" value="correct"> U2
+						<input type="radio" name="question5" value="wrong"> Jay Z
+						<input type="radio" name="question5" value="wrong"> Lady Gaga
+						</form>
+					
+					<h1>What is the most expensive city in the world?</h1><br>
+						<form >
+						<input type="radio" name="question6" value="wrong"> Hong Kong
+						<input type="radio" name="question6" value="wrong"> Zurich
+						<input type="radio" name="question6" value="correct"> Luanda
+						<input type="radio" name="question6" value="wrong"> Singapore
+						</form>
+
+					<h1>What is the most expensive car in the world?</h1><br>
+						<form >
+						<input type="radio" name="question7" value="correct"> McLaren P1 LM
+						<input type="radio" name="question7" value="wrong"> Lamborghini Veneno
+						<input type="radio" name="question7" value="wrong"> Lykan HyperSport
+						<input type="radio" name="question7" value="wrong"> Aston Martin Valkyrie
+						</form>
+
+					<h1>What is the most watch TV show?</h1><br>
+						<form >
+						<input type="radio" name="question8" value="correct"> M*A*S*H
+						<input type="radio" name="question8" value="wrong"> Seinfeld
+						<input type="radio" name="question8" value="wrong"> Friends
+						<input type="radio" name="question8" value="wrong"> Cheers
+						</form>
+
+				</div>
+
+			<div id="results"></div>
+			
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script type="text/javascript" language="javascript" src="assets/javascript/game.js">
+</script>
+
+</body>
+</html>
